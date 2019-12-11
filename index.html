@@ -6,15 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Github Profile Info</title>
   </head>
-  <body>
-    <img src="${imgURL}" height="300" width="300" />
-    <h1 style="color: ${favColor};">${name}</h1>
-    <h5>${bio}</h5>
-    <a href="${pageurl}">Github Page</a>
-    <div>${location}</div>
-    <h4>Repositories: ${repocount}</h4>
-    <h4>Following: ${following}</h4>
-    <h4>Followers: ${followers}</h4>
-    <h4>Location: ${location}</h4>
+  <body style="box-sizing:content-box; background-color: ${favColor}">
+    <div
+      style="float: center; widows: 960px; background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1in;
+    margin-bottom: 2in;
+    border: 2px solid #dddddd;"
+    >
+      <img src="${imgURL}" height="300" width="300" />
+      <h1 style="color: ${favColor};">${name}</h1>
+      <h5>${bio}</h5>
+      <a href="${pageurl}">Github Page</a>
+      <div>${location}</div>
+      <h4>Repositories: ${repocount}</h4>
+      <h4>Following: ${following}</h4>
+      <h4>Followers: ${followers}</h4>
+      <h4>Location: ${location}</h4>
+    </div>
   </body>
 </html>
