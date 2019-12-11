@@ -62,6 +62,7 @@ async function writePDF() {
               <h4>Repositories: ${repocount}</h4>
               <h4>Following: ${following}</h4>
               <h4>Followers: ${followers}</h4>
+              <h4>Stared Repositories: 2</h4>
               <a target="_blank" href="https://www.google.com/maps/place/${location}"
                 ><h4>Location: ${location}</h4></a
               >
