@@ -33,6 +33,11 @@ async function writePDF() {
           <meta charset="UTF-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+          <meta
+            name="viewport"
+            content="initial-scale=1.0,
+          width=device-width"
+          />
           <title>Github Profile Info</title>
         </head>
         <body style="box-sizing:content-box; background-color: ${favColor}">
@@ -44,15 +49,23 @@ async function writePDF() {
           margin-bottom: 2in;
           border: 2px solid #dddddd;"
           >
-            <img src="${imgURL}" height="300" width="300" />
-            <h1 style="color: ${favColor};">${name}</h1>
-            <h5>${bio}</h5>
-            <a href="${pageurl}">Github Page</a>
-            <div>${location}</div>
-            <h4>Repositories: ${repocount}</h4>
-            <h4>Following: ${following}</h4>
-            <h4>Followers: ${followers}</h4>
-            <h4>Location: ${location}</h4>
+            <div style="margin: 10px">
+              <img
+                style="position: reletive; float: right; "
+                src="${imgURL}"
+                height="300"
+                width="300"
+              />
+              <h1 style="color: ${favColor}">${name}</h1>
+              <h5>${bio}</h5>
+              <a href="${pageurl}">Github Page</a>
+              <h4>Repositories: ${repocount}</h4>
+              <h4>Following: ${following}</h4>
+              <h4>Followers: ${followers}</h4>
+              <a target="_blank" href="https://www.google.com/maps/place/${location}"
+                ><h4>Location: ${location}</h4></a
+              >
+            </div>
           </div>
         </body>
       </html>`;
