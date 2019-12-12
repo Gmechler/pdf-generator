@@ -1,6 +1,12 @@
-# pdf-generator
+# Developer-profile-pdf-generator
 
 This is a pdf generator that will create a formated pdf with the infomration available on git hub for a provided username. It is also able to add simple styling based on user input.
+
+# Motivation
+
+This app is designed to assit a manager in presenting some basic developer info for their team or a cadidate pool.
+
+![](../vscode/assests/imgs/screenshot_1)
 
 you will need to have the following npm's installed - inquirer, axios, html-pdf.
 
