@@ -12,7 +12,7 @@ This app is designed to assit a manager in presenting some basic developer info 
 
 I used node.js and Javascript for this app. I also used the following nope packages inquirer, axios, html-pdf, util, and fs.
 
-# code example
+# Code
 
 The app utilizes try/await/catch in an async function to obtain user input and run an axios call to github.
 
@@ -26,7 +26,7 @@ css is added inline and include a background color specified by the user from th
 
 <img src="assets\imgs\code_3-screenshot_4.png" width=400>
 
-# api
+# API
 
 Github is the only api used and does not require a key
 
